@@ -55,5 +55,5 @@ build/
 .vscode/
 
 ##
-/.mvn/
+*/.mvn/*
 
