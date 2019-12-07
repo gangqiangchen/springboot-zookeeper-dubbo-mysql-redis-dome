@@ -58,5 +58,8 @@ build/
 */.mvn/*
 mybatis-generator-gui/*
 mybatis-generator-gui
+##
+dubbo-demo/*
+dubbo-demo
 
 
