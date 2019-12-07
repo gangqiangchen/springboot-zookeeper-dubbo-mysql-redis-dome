@@ -7,7 +7,7 @@
 
 #### zookeeper 集群启动命令
 ```
-+ /usr/local/zookeeper/zookeeper-3.4.8-01/bin/zkServer.sh start
-+ /usr/local/zookeeper/zookeeper-3.4.8-02/bin/zkServer.sh start
-+ /usr/local/zookeeper/zookeeper-3.4.8-03/bin/zkServer.sh start
+/usr/local/zookeeper/zookeeper-3.4.8-01/bin/zkServer.sh start
+/usr/local/zookeeper/zookeeper-3.4.8-02/bin/zkServer.sh start
+/usr/local/zookeeper/zookeeper-3.4.8-03/bin/zkServer.sh start
 ```
