@@ -1,0 +1,10 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+  xmlns="http://www.springframework.org/schema/beans"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+  <dubbo:application name="dubbo-order"/>
+  <dubbo:registry group="dubbo" protocol="zookeeper" address="101.200.58.166:2181,101.200.58.166:2182,101.200.58.166:2183" />
+  <dubbo:protocol name="dubbo" port="21112"/>
+</beans>
